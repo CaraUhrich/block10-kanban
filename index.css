@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 85px 1fr;
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    /* height: 75px;
+    width: 100vw; */
+    background-color: goldenrod;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    color: white;
+}
+
+nav{
+    text-align: end;
+}
+
+h1{
+
+}
+
+.homepage{
+    background-color: black;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    padding: 25px 10px;
+    color: white
+}
+
+.homepage > img{
+    max-height: 55vh;
+    max-width: 55vw;
+    grid-column-start: 2;
+}
+
+#quote{
+    padding: 15px;
+    text-align: center;
+    grid-column: 1 / 3;
+}
+
+#home-description{
+    text-align: end;
+    padding: 15px;
+}
