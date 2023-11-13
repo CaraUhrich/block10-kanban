@@ -72,27 +72,26 @@ section {
     align-items: center;
 }
 
-.sec-odd {
+.about-img {
+    border-radius: 15px;
+}
+
+:nth-child(odd of section) {
     grid-column: 1 / span 2;
     padding: 10px;
     text-align: end;
 }
 
-.sec-even {
+:nth-child(even of section) {
     grid-column: 2 / span 2;
     text-align: start;
     padding: 10px;
 }
 
-/* need a way to make this work for more than 3 items */
-.img-even{
+:nth-child(even of img) {
     grid-row-start: 3;
     margin-left: 15px;
     justify-self: end;
-}
-
-.sec-even {
-    grid-column: 2 / span 2;
 }
 
 #quote {
@@ -104,4 +103,8 @@ section {
 #home-description{
     text-align: end;
     padding: 15px;
+}
+
+#border-test{
+    border-radius: 15px;
 }
