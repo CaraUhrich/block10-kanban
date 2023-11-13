@@ -1,1 +1,3 @@
 # block10-kanban
+
+This project used a culmination of skills that we learned previously and our block 10-12 lessons to make a simple personal webpage to display information. Javascript was included for practice linking a script. I used HTML to structure content include and link between pages including an unworking form to practice with form structure. I used CSS in an external file to style all of the pages and grid to organize content and make the page responsive to media size.
