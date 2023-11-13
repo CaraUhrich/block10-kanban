@@ -69,13 +69,13 @@ section {
     color: white;
     display: grid;
     grid-template: 70px 1fr 1fr 1fr / 1fr 1fr 1fr;
+    align-items: center;
 }
 
 .sec-odd {
     grid-column: 1 / span 2;
     padding: 10px;
     text-align: end;
-
 }
 
 .sec-even {
@@ -84,8 +84,11 @@ section {
     padding: 10px;
 }
 
+/* need a way to make this work for more than 3 items */
 .img-even{
     grid-row-start: 3;
+    margin-left: 15px;
+    justify-self: end;
 }
 
 .sec-even {
